@@ -1,0 +1,28 @@
+.button-red {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: red;
+    border: 0 !important;
+}
+.button-default {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #303f9f;
+    border: 0 !important;
+}
+.button-black {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    border: 0 !important;
+}
+.button-purple {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: purple;
+    border: 0 !important;
+}

@@ -1,0 +1,139 @@
+body {
+    background-color: #B71C1C;
+}
+.white {
+    color: white !important;
+}
+.btn-style {
+    background-color: limegreen;
+    border-color: transparent;
+}
+
+.btn-del {
+    background-color: red;
+    margin-right: -7px;
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.btn-style:hover {
+    background-color: green;
+}
+
+.btn-edit {
+    background-color: #FFC107;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.td {
+    /* border: #303f9f solid 10px; */
+}
+
+.dtd {
+    border-top-color: transparent !important;
+}
+
+.tabletxt {
+    color: black;
+}
+
+.test {
+    background-color: whitesmoke !important;
+}
+
+.glyphicon-plus:before {
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.fx {
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.pdng {
+    padding: 0 !important;
+}
+
+.nav-style {
+    background-color: #D50000 !important;
+    border: 0;
+}
+
+.header {
+    color: white !important;
+}
+
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-top: 0 !important;
+}
+
+td {
+    border-radius: 5px !important;
+    border-top-color: transparent !important;
+
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+}
+input {
+    width: 100%;
+}
+.pull-right{
+    margin-top: -10.5px;
+    margin-right: -10.5px;
+}
+/* MOBILE CSS */
+
+@media screen and (max-width: 480px) {
+    .navbar-toggle {
+        border-color: transparent;
+    }
+    .jumbotron {
+        padding: 0 !important;
+    }
+    .mob-p {
+        font-size: 14px !important;
+    }
+    .add {
+        font-size: 12px !important;
+    }
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        padding: 2px;
+        line-height: 1.42857143;
+        vertical-align: top;
+    }
+
+    .navbar-toggle {
+        border: 0 !important;
+    }
+    .navbar-toggle:hover {
+        background-color: transparent !important;
+    }
+}
+
+.place { background-color: #336699; }
+.place.green { background-color: #00cc00; }
+input {
+    background-color: transparent;
+    border: 0 !important;
+    display: flex;
+
+}
